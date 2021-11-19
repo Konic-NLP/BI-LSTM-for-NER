@@ -1,0 +1,20 @@
+{
+    "model_type": "bilstm",
+    "crf_layer": true,
+    "num_chars": 22471,
+    "char_dim": 200,
+    "num_tags": 3,
+    "seg_dim": 0,
+    "lstm_dim": 200,
+    "batch_size": 32.0,
+    "emb_file": "D:\\网页下载\\bio_embedding.txt",
+    "clip": 5.0,
+    "dropout_keep": 0.5,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "tag_schema": "iobes",
+    "pre_emb": false,
+    "zeros": true,
+    "lower": true,
+    "isEnglish": true
+}
